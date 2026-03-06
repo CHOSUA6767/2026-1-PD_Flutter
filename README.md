@@ -7,11 +7,13 @@ Windows 및 macOS 환경에서 Flutter 시작하기
 Flutter 개발을 위해서는 먼저 공식 SDK를 다운로드하고 시스템 환경 변수에 등록해야 합니다.
 
 1. [Flutter 공식 홈페이지](https://docs.flutter.dev/get-started/install)에 접속하여 본인의 운영체제에 맞는 SDK 압축 파일을 다운로드합니다.
-2. 원하는 경로(예: `C:\src\flutter` 또는 `~/development/flutter`)에 압축을 해제합니다.
+2. 원하는 경로(예: `C:\src\flutter` 또는 `~/development/flutter`)에 압축을 해제합니다. 
 3. 운영체제의 **환경 변수(Environment Variables)** 설정에서 `Path`에 Flutter의 `bin` 폴더 경로를 추가합니다.
 
 > 💡 **주의:** Windows 환경의 경우 권한 문제가 발생할 수 있으므로 `C:\Program Files\` 폴더에는 설치하지 않는 것을 권장합니다.
-
+> 💡 **경로 복사 꿀팁:** 환경 변수 설정 시 복잡한 경로를 직접 타이핑할 필요 없이 쉽게 복사합니다. 
+> - **Windows:** 폴더를 `Shift + 우클릭`하여 **'경로로 복사(Copy as path)'**를 선택하거나, 폴더 창 상단의 주소표시줄을 클릭해 복사(`Ctrl+C`)하면 됩니다.
+> - **Mac:** 압축 해제한 Flutter 폴더를 터미널이나 텍스트 편집기 창에 **드래그 앤 드롭**하면 폴더 위치(경로)가 자동으로 텍스트로 입력됩니다.
 ---
 
 ## 2️⃣ Android Studio 설치 및 설정
